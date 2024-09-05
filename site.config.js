@@ -5,9 +5,9 @@ const CONFIG = {
     image: "/totoro.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "security engineer",
     bio: "hello *.*",
-    email: "onzl.c3@gmail.com",
-    linkedin: "onzl",
-    github: "onzl-c",
+    // email: "onzl.c3@gmail.com",
+    // linkedin: "onzl",
+    // github: "onzl-c",
     instagram: "onzl.c",
   },
   projects: [
