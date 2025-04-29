@@ -2,18 +2,22 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "onzl",
-    image: "/totoro.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "security engineer",
+    image: "/onzl.jpeg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: "software engineer",
     bio: "hello *.*",
-    email: "",
-    linkedin: "",
-    github: "",
+    email: "onzl.c.dev@gmail.com",
+    linkedin: "https://www.linkedin.com/in/onzl/",
+    github: "https://github.com/onzl-c",
     instagram: "onzl.c",
   },
   projects: [
     {
       name: `detect malicious package and library with ml`,
       href: "https://github.com/weArePotato/WHS2_WeArePotato",
+    },
+    {
+      name: `Self-learning threat assessment with SAST analytics and AWS DevSecOps implementation using intelligent ML`,
+      href: "https://github.com/onzl-c/Hongik_AIMLproject",
     },
   ],
   // blog setting (required)
@@ -27,7 +31,7 @@ const CONFIG = {
   // CONFIG configration (required)
   link: "https://onzl-log.vercel.app",
   since: 2024, // If leave this empty, current year will be used.
-  lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
